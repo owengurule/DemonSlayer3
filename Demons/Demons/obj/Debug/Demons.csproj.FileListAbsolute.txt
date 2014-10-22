@@ -1,0 +1,6 @@
+C:\Users\Owen\Documents\GitHub\DemonSlayer3\Demons\Demons\bin\Debug\Demons.exe.config
+C:\Users\Owen\Documents\GitHub\DemonSlayer3\Demons\Demons\bin\Debug\Demons.exe
+C:\Users\Owen\Documents\GitHub\DemonSlayer3\Demons\Demons\bin\Debug\Demons.pdb
+C:\Users\Owen\Documents\GitHub\DemonSlayer3\Demons\Demons\obj\Debug\Demons.csprojResolveAssemblyReference.cache
+C:\Users\Owen\Documents\GitHub\DemonSlayer3\Demons\Demons\obj\Debug\Demons.exe
+C:\Users\Owen\Documents\GitHub\DemonSlayer3\Demons\Demons\obj\Debug\Demons.pdb
