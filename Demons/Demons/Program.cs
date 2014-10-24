@@ -20,7 +20,7 @@ namespace Demons
             new Weapons("Ferocious BattleAxe(Axe)", 18, WeaponClass.Axe) 
         };
 
-
+        
 
 
 
@@ -48,7 +48,7 @@ namespace Demons
 
                 if (inputNum.Equals(1))
                 {
-                    
+                    return Demons.Weapons.isInUse = true;
                 }
 
             }

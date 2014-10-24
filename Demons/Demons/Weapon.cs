@@ -19,6 +19,8 @@ namespace Demons
 
     public class Weapons
     {
+
+        public bool isInUse = false;
         public WeaponClass Type { get; set; }
         public int Damage { get; set; }
         public string Name { get; set; }
@@ -30,6 +32,7 @@ namespace Demons
             this.Type = type;
         }
     }
+
 }
 
 

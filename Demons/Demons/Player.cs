@@ -10,8 +10,8 @@ namespace Demons
     {
         public enum AttackType
         {
-            Sword = 1,
-            Magic,
+            Attack = 1,
+            ThrowingKnife,
             Heal
 
 
@@ -61,8 +61,8 @@ namespace Demons
             
 
             
-            Sword
-            Magic
+            Attack
+            Throwing Knife
             Heal
 
             
@@ -82,12 +82,12 @@ namespace Demons
                 switch (ChooseAttack())
                 {
 
-                    case AttackType.Sword:
+                    case AttackType.Attack:
 
                         if  (rng.Next(0, 101) > 3)
                         {
 
-                            damage = rng.Next(15, 31);
+                            damage = rng.Next(20, 36);
                             enemy.HP -= damage;
                             Console.WriteLine("{0} deals {1} damage to {2}", this.Name, damage, enemy.Name);
 
