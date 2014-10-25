@@ -49,13 +49,13 @@ namespace Demons
             if(!Player.IsAlive)
             {
 
-                Console.WriteLine("{0} hath been slain", this.Player.Name);
+                Console.WriteLine("{0} has been killed", this.Player.Name);
 
             }
             else
             {
 
-                Console.WriteLine("{0} hath been slain", this.Enemy.Name);
+                Console.WriteLine("{0} has been killed", this.Enemy.Name);
 
             }
 

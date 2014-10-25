@@ -20,13 +20,14 @@ namespace Demons
     public class Weapons
     {
 
-        public bool isInUse = false;
+        
         public WeaponClass Type { get; set; }
         public int Damage { get; set; }
         public string Name { get; set; }
 
         public Weapons(string n, int damage, WeaponClass type)
         {
+            
             this.Name = n;
             this.Damage = damage;
             this.Type = type;

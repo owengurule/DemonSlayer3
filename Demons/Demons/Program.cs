@@ -11,7 +11,18 @@ namespace Demons
 
 
 
-        static List<Weapons> WeaponsToChoose = new List<Weapons>() 
+
+        
+
+
+
+        static void Main(string[] args)
+
+
+
+        {
+
+            List<Weapons> WeaponsToChoose = new List<Weapons>() 
         {
             new Weapons("Deadly Puncture(Dagger)", 15, WeaponClass.Dagger),
             new Weapons("Razors Edge(Katana)", 20, WeaponClass.Blade),
@@ -20,17 +31,9 @@ namespace Demons
             new Weapons("Ferocious BattleAxe(Axe)", 18, WeaponClass.Axe) 
         };
 
-        
 
 
-
-        static void Main(string[] args)
-        {
-
-
-
-
-
+            bool isInUse = false;
 
 
             bool inputValidation = false;
@@ -48,7 +51,17 @@ namespace Demons
 
                 if (inputNum.Equals(1))
                 {
-                    return Demons.Weapons.isInUse = true;
+                    WeaponsToChoose.Clear();
+                    WeaponsToChoose.Add(new Weapons("Deadly Puncture(Dagger)", 15, WeaponClass.Dagger));
+
+                    isInUse = true;
+                    foreach (Weapons item in WeaponsToChoose)
+                    {
+                        while (isInUse)
+                        {
+                            return Player.AttackType.Attack + Player.AttackType.Attack.totalDam + (15);
+                        }
+                    }
                 }
 
             }

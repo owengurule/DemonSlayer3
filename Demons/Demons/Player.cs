@@ -53,7 +53,7 @@ namespace Demons
 
         }
 
-        private AttackType ChooseAttack()
+        public AttackType ChooseAttack()
         {
 
 
@@ -87,8 +87,9 @@ namespace Demons
                         if  (rng.Next(0, 101) > 3)
                         {
 
-                            damage = rng.Next(20, 36);
-                            enemy.HP -= damage;
+                            int totalDam = damage = rng.Next(20, 36);
+                            
+                            enemy.HP -= totalDam;
                             Console.WriteLine("{0} deals {1} damage to {2}", this.Name, damage, enemy.Name);
 
                         }
