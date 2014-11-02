@@ -24,11 +24,12 @@ namespace Demons
 
             List<Weapons> WeaponsToChoose = new List<Weapons>() 
         {
-            new Weapons("Deadly Puncture(Dagger)", 15, WeaponClass.Dagger),
-            new Weapons("Razors Edge(Katana)", 20, WeaponClass.Blade),
-            new Weapons("Hells Hammer(Warhammer)", 30, WeaponClass.Blunt),
-            new Weapons("Saurons Swinger(Flail)", 25, WeaponClass.Flail),
-            new Weapons("Ferocious BattleAxe(Axe)", 18, WeaponClass.Axe) 
+
+            new Weapons("Deadly Puncture(Dagger)", 15),
+            new Weapons("Razors Edge(Katana)", 20),
+            new Weapons("Hells Hammer(Warhammer)", 30),
+            new Weapons("Saurons Swinger(Flail)", 25),
+            new Weapons("Ferocious BattleAxe(Axe)", 18) 
         };
 
 
@@ -52,14 +53,14 @@ namespace Demons
                 if (inputNum.Equals(1))
                 {
                     WeaponsToChoose.Clear();
-                    WeaponsToChoose.Add(new Weapons("Deadly Puncture(Dagger)", 15, WeaponClass.Dagger));
+                    WeaponsToChoose.Add(new Weapons("Deadly Puncture(Dagger)", 15));
 
                     isInUse = true;
                     foreach (Weapons item in WeaponsToChoose)
                     {
                         while (isInUse)
                         {
-                            return Player.AttackType.Attack + Player.AttackType.Attack.totalDam + (15);
+                            ;
                         }
                     }
                 }

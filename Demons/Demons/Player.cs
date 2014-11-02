@@ -87,7 +87,7 @@ namespace Demons
                         if  (rng.Next(0, 101) > 3)
                         {
 
-                            int totalDam = damage = rng.Next(20, 36);
+                            int totalDam = damage = rng.Next(20, 36) + Weapons.damage ;
                             
                             enemy.HP -= totalDam;
                             Console.WriteLine("{0} deals {1} damage to {2}", this.Name, damage, enemy.Name);
